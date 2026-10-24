@@ -4,10 +4,10 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Мебель для квартиры под ключ в Ессентуках — Мебельян</title>
-<meta name="description" content="Три варианта мебели для квартиры до 40 м²: Эконом, Комфорт, Люкс. Привезём и соберём. Ессентуки, ул. Орджоникидзе, 79А. Каждый день 10:00–19:00.">
+<meta name="description" content="Три пакета мебели для квартиры до 40 м²: Эконом, Комфорт, Люкс. Замер, доставка и сборка. Ессентуки, ул. Орджоникидзе, 79А. Каждый день 10:00–19:00.">
 <!-- Черновик: убрать noindex после согласования с клиентом -->
 <meta name="robots" content="noindex, nofollow">
-<meta name="theme-color" content="#F9F8F4">
+<meta name="theme-color" content="#FFFFFF">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 <link rel="icon" href="favicon-32.png" sizes="32x32" type="image/png">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
@@ -15,13 +15,12 @@
 <meta property="og:locale" content="ru_RU">
 <meta property="og:site_name" content="Мебельян">
 <meta property="og:title" content="Мебельян: обставим квартиру до 40 м² под ключ">
-<meta property="og:description" content="Магазин мебели в Ессентуках. Три готовых варианта: Эконом, Комфорт, Люкс. ул. Орджоникидзе, 79А.">
+<meta property="og:description" content="Магазин мебели в Ессентуках. Три готовых пакета: Эконом, Комфорт, Люкс. ул. Орджоникидзе, 79А.">
 <meta property="og:url" content="https://orbient.github.io/draft-mebelyan/">
 <meta property="og:image" content="https://orbient.github.io/draft-mebelyan/img/og.jpg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
-<link rel="preload" href="fonts/onest-cyr.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="fonts/cormorant-cyr.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/montserrat-cyr.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" as="image" href="img/hero-m-800.webp" imagesrcset="img/hero-m-480.webp 480w, img/hero-m-800.webp 800w" media="(max-width: 700px)" fetchpriority="high">
 <link rel="preload" as="image" href="img/hero-w-1920.webp" imagesrcset="img/hero-w-1280.webp 1280w, img/hero-w-1920.webp 1920w" imagesizes="(min-width: 1240px) 1192px, 100vw" media="(min-width: 701px)" fetchpriority="high">
 <script type="application/ld+json">
@@ -51,131 +50,163 @@
 }
 </script>
 <style>
-@font-face{font-family:"Onest";font-style:normal;font-weight:400 600;font-display:swap;src:url(fonts/onest-cyr.woff2) format("woff2");unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}
-@font-face{font-family:"Onest";font-style:normal;font-weight:400 600;font-display:swap;src:url(fonts/onest-lat.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
-@font-face{font-family:"Cormorant Garamond";font-style:normal;font-weight:500 600;font-display:swap;src:url(fonts/cormorant-cyr.woff2) format("woff2");unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}
-@font-face{font-family:"Cormorant Garamond";font-style:normal;font-weight:500 600;font-display:swap;src:url(fonts/cormorant-lat.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:"Montserrat";font-style:normal;font-weight:400 700;font-display:swap;src:url(fonts/montserrat-cyr.woff2) format("woff2");unicode-range:U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}
+@font-face{font-family:"Montserrat";font-style:normal;font-weight:400 700;font-display:swap;src:url(fonts/montserrat-lat.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
 
-/* Палитра по токенам Gubi: #F9F8F4, #EDECE9, #F1F1F0, #E4E3DF, #171716, #DFDFDF */
+/* Стилистика по fullflat.com: белый фон, геометрический гротеск, мягкая цветная полоса,
+   прямоугольные кнопки капслоком, чипсы-фильтры, тёмный подвал. Цвета свои, тёплые. */
 :root{
-  --page:#F9F8F4; --stone:#EDECE9; --tile:#F1F1F0; --tile-h:#E4E3DF; --ink:#171716;
-  --line:#DFDFDF; --line-s:rgba(23,23,22,.16); --on-dark:#F9F8F4; --line-d:rgba(249,248,244,.18);
-  --r:3px; --wrap:1240px; --gut:24px;
-  --serif:"Cormorant Garamond","Times New Roman",Georgia,serif;
+  --white:#FFFFFF; --ink:#1F1D1B; --sand:#EFEAE2; --tile:#F5F3EF; --line:#E4E0DA;
+  --dark:#2E2925; --dark-h:#4A423C; --on-dark:#F7F4EF; --line-d:rgba(247,244,239,.2);
+  --r:2px; --wrap:1240px; --gut:24px;
+  --serif:"Montserrat",system-ui,sans-serif;
+  --page:#FFFFFF; --stone:var(--sand); --line-s:var(--line);
 }
 *{box-sizing:border-box}
 html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
-body{margin:0;background:var(--page);color:var(--ink);font:400 19px/1.6 "Onest",system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;-webkit-font-smoothing:antialiased}
+body{margin:0;background:var(--white);color:var(--ink);font:400 19px/1.6 "Montserrat",system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;-webkit-font-smoothing:antialiased}
 img{display:block;max-width:100%;height:auto}
 a{color:inherit}
-h1,h2,h3{font-family:var(--serif);font-weight:500;margin:0 0 .35em;letter-spacing:-.005em;font-variant-numeric:lining-nums}
-h1{font-size:clamp(46px,6vw,80px);line-height:1}
-h2{font-size:clamp(38px,4.2vw,58px);line-height:1.05}
-h3{font-size:32px;line-height:1.1;font-weight:600}
+h1,h2,h3{font-weight:600;margin:0 0 .45em;letter-spacing:-.02em}
+h1{font-size:clamp(40px,4.8vw,64px);line-height:1.06}
+h2{font-size:clamp(30px,3vw,40px);line-height:1.15}
+h3{font-size:22px;line-height:1.3;letter-spacing:-.01em}
 p{margin:0 0 1em}
 .wrap{max-width:var(--wrap);margin:0 auto;padding:0 var(--gut)}
-.lead{font-size:20px;max-width:32em}
+.lead{font-size:20px;max-width:34em}
 .skip{position:absolute;left:-9999px}
 .skip:focus{left:12px;top:12px;background:#fff;padding:10px 14px;z-index:99}
 :focus-visible{outline:2px solid var(--ink);outline-offset:3px}
+.ico{width:22px;height:22px;flex:none;fill:none;stroke:currentColor;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
 
-/* кнопки */
-.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:58px;min-width:9rem;padding:14px 32px;border-radius:999px;border:1px solid transparent;font-family:inherit;font-weight:500;font-size:18px;line-height:1.2;text-decoration:none;cursor:pointer;transition:background-color .3s cubic-bezier(.25,1,.5,1),color .3s,border-color .3s}
+/* кнопки: прямоугольные, капслоком, как у fullflat */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:56px;padding:14px 30px;border-radius:var(--r);border:1.5px solid transparent;font-family:inherit;font-weight:600;font-size:16px;line-height:1.2;letter-spacing:.06em;text-transform:uppercase;text-decoration:none;cursor:pointer;transition:background-color .25s,color .25s,border-color .25s}
 .btn svg{width:19px;height:19px;flex:none}
-.btn-dark{background:var(--ink);color:#fff}
-.btn-dark:hover{background:#3b3b39}
-.btn-light{background:var(--page);color:var(--ink)}
-.btn-light:hover{background:var(--tile-h)}
+.btn-dark{background:var(--dark);color:#fff}
+.btn-dark:hover{background:var(--dark-h)}
+.btn-white{background:#fff;color:var(--ink)}
+.btn-white:hover{background:var(--sand)}
+.btn-light{background:#fff;color:var(--ink)}
+.btn-light:hover{background:var(--sand)}
 .btn-line{border-color:var(--ink);color:var(--ink);background:transparent}
 .btn-line:hover{background:var(--ink);color:#fff}
+.btn-ghost{border-color:#fff;color:#fff;background:transparent}
+.btn-ghost:hover{background:#fff;color:var(--ink)}
+.link{display:inline-flex;align-items:center;gap:8px;font-weight:600;font-size:16px;letter-spacing:.06em;text-transform:uppercase;text-decoration:none;padding-bottom:6px;border-bottom:1.5px solid currentColor}
+.link:hover{opacity:.7}
+.more{font-weight:600;text-decoration:none;border-bottom:1.5px solid currentColor;padding:4px 0}
+.more:hover{opacity:.7}
 
-/* шапка */
-.top{position:sticky;top:0;z-index:30;background:var(--page);border-bottom:1px solid transparent;transition:border-color .3s}
-.top.scrolled{border-color:var(--line)}
-.top .wrap{display:flex;align-items:center;gap:36px;min-height:86px}
-.logo{text-decoration:none;margin-right:auto;line-height:1.1}
-.logo b{display:block;font-family:var(--serif);font-weight:600;font-size:30px;letter-spacing:.14em;text-transform:uppercase}
-.logo small{display:block;font-size:16px;margin-top:2px;white-space:nowrap}
-.nav{display:flex;gap:26px;font-size:18px;white-space:nowrap}
-.nav a{text-decoration:none;border-bottom:1px solid transparent;padding:4px 0;transition:border-color .3s}
-.nav a:hover{border-color:currentColor}
-.tel{font-weight:500;font-size:24px;text-decoration:none;white-space:nowrap;letter-spacing:-.01em}
-.top .btn{min-height:50px;min-width:0;padding:10px 22px;font-size:17px}
+/* шапка: две строки, как у fullflat */
+.top{position:sticky;top:0;z-index:30;background:var(--white)}
+.top .wrap{display:flex;align-items:center;gap:28px;min-height:76px}
+.logo{text-decoration:none;margin-right:auto;line-height:1}
+.logo b{font-weight:700;font-size:30px;letter-spacing:-.04em}
+.switch{display:flex;padding:4px;border-radius:999px;background:var(--tile)}
+.switch a{padding:9px 28px;border-radius:999px;font-weight:500;font-size:16px;text-decoration:none;transition:background-color .25s,color .25s}
+.switch a:first-child{background:var(--dark);color:#fff}
+.switch a:not(:first-child):hover{background:var(--line)}
+.tel{display:inline-flex;align-items:center;gap:8px;font-weight:600;font-size:20px;text-decoration:none;white-space:nowrap}
+.top .btn{min-height:46px;padding:10px 18px;font-size:14px}
+.strip{background:var(--tile);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.strip ul{display:flex;justify-content:center;gap:36px;list-style:none;margin:0 auto;padding:0 var(--gut);max-width:var(--wrap);overflow-x:auto;scrollbar-width:none}
+.strip ul::-webkit-scrollbar{display:none}
+.strip a{display:block;padding:11px 0;font-size:16px;font-weight:500;white-space:nowrap;text-decoration:none;border-bottom:1.5px solid transparent}
+.strip a:hover{border-color:currentColor}
 
-/* первый экран */
-.hero{padding:56px 0 0}
-.hero-where{font-size:17px;margin:0 0 22px}
-.hero h1{max-width:11em;margin-bottom:32px}
-.hero-row{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:20px 48px;margin-bottom:48px}
-.hero-row .lead{margin:0}
+/* первый экран: текст на фото, справа факты */
+.hero{padding:24px 0 0}
+.hero-box{position:relative;border-radius:var(--r);overflow:hidden;background:var(--tile)}
+.hero-box img{width:100%;height:auto;aspect-ratio:16/8;object-fit:cover;object-position:50% 55%}
+.hero-box::after{content:"";position:absolute;inset:0;background:rgba(20,17,14,.42)}
+.hero-in{position:absolute;inset:0;z-index:1;display:grid;grid-template-columns:1.5fr 1fr;align-items:end;gap:32px;padding:56px;color:#fff}
+.hero-in h1{margin:0 0 12px;max-width:11em}
+.hero-sub{margin:0 0 30px;font-weight:600;font-size:17px;letter-spacing:.06em;text-transform:uppercase}
 .btns{display:flex;flex-wrap:wrap;gap:12px}
-.hero-photo{max-width:var(--wrap);margin:0 auto;padding:0 var(--gut)}
-.hero-photo img{width:100%;height:auto;aspect-ratio:16/8;object-fit:cover;object-position:50% 55%;border-radius:var(--r)}
-.hero-cap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:8px 24px;padding-top:14px;font-size:16px}
-.hero-cap a{text-underline-offset:3px}
-.hero-cap b{font-weight:600}
+.facts{list-style:none;margin:0;padding:0;justify-self:end;display:grid;gap:22px}
+.facts li{line-height:1.2;font-weight:600;font-size:16px;letter-spacing:.05em;text-transform:uppercase}
+.facts b{display:block;font-size:30px;letter-spacing:-.01em;text-transform:none;margin-bottom:2px}
+
+/* мягкая полоса с призывом */
+.band-cta{background:var(--sand)}
+.band-cta .wrap{display:grid;grid-template-columns:1.4fr 1fr;gap:20px 56px;align-items:center;padding-top:40px;padding-bottom:40px}
+.band-cta h2{font-size:30px;margin:0 0 8px}
+.band-cta p{margin:0;max-width:36em}
+.band-cta .link{justify-self:end}
 
 /* секции */
-section{scroll-margin-top:90px}
-.band{padding:104px 0}
-.stone{background:var(--stone)}
-.sec-title{max-width:20em}
-.sec-intro{max-width:34em;margin:0 0 52px;font-size:20px}
+section{scroll-margin-top:140px}
+.band{padding:96px 0}
+.sand,.stone{background:var(--sand)}
+.sec-head{display:flex;flex-wrap:wrap;align-items:end;justify-content:space-between;gap:16px 40px;margin-bottom:40px}
+.sec-head h2{margin:0}
+.sec-intro{max-width:36em;margin:0 0 40px;font-size:20px}
+
+/* шаги с иконками и линией */
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:28px;list-style:none;margin:0;padding:0;counter-reset:s}
+.steps li{counter-increment:s}
+.step-top{display:flex;align-items:center;gap:14px;margin-bottom:20px}
+.step-ic{display:grid;place-items:center;width:52px;height:52px;border-radius:50%;background:var(--tile);flex:none}
+.step-top::after{content:"";flex:1;height:2px;background:var(--line)}
+.steps h3{margin:0 0 8px}
+.steps h3::before{content:"0" counter(s) " ";color:var(--dark-h)}
+.steps p{margin:0}
 
 /* пакеты */
-.pkgs{display:grid;grid-template-columns:repeat(3,1fr);gap:32px;list-style:none;margin:0;padding:0}
+.incl{display:flex;flex-wrap:wrap;align-items:center;gap:10px 28px;margin:-16px 0 36px;font-size:17px}
+.incl b{font-weight:500}
+.incl span{display:inline-flex;align-items:center;gap:8px;font-weight:600;font-size:15px;letter-spacing:.05em;text-transform:uppercase}
+.pkgs{display:grid;grid-template-columns:repeat(3,1fr);gap:28px;list-style:none;margin:0;padding:0}
 .pkg{display:flex;flex-direction:column}
-.pkg-ph{display:block;border-radius:var(--r);overflow:hidden;background:var(--tile)}
-.pkg img{width:100%;aspect-ratio:4/5;object-fit:cover;transition:transform 1s cubic-bezier(.25,1,.5,1)}
+.pkg-ph{position:relative;display:block;border-radius:var(--r);overflow:hidden;background:var(--tile)}
+.pkg img{width:100%;aspect-ratio:4/3;object-fit:cover;transition:transform .9s cubic-bezier(.25,1,.5,1)}
 .pkg:hover img{transform:scale(1.03)}
-.pkg h3{margin:26px 0 2px;font-size:40px}
-.price{font-weight:500;font-size:28px;line-height:1.2;letter-spacing:-.01em;margin:0 0 16px}
-.pkg .for{margin:0 0 14px}
-.pkg .what{margin:0 0 26px;padding-top:14px;border-top:1px solid var(--line-s);font-size:18px}
+.chip{position:absolute;left:14px;top:14px;padding:6px 12px;border-radius:4px;background:#fff;font-weight:600;font-size:14px;letter-spacing:.05em;text-transform:uppercase}
+.pkg h3{margin:20px 0 4px;font-size:26px}
 .pkg h3 a{text-decoration:none}
+.price{margin:0 0 12px;font-weight:600;font-size:22px}
+.price-note{font-weight:400;font-size:16px}
+.pkg .for{margin:0 0 10px}
+.pkg .what{margin:0 0 22px;padding-top:12px;border-top:1px solid var(--line);font-size:17px}
 .pkg-btns{margin-top:auto;display:flex;flex-wrap:wrap;align-items:center;gap:12px 24px}
-.more{font-weight:500;text-decoration:none;border-bottom:1px solid currentColor;padding:4px 0}
-.more:hover{border-bottom-width:2px}
-.pkgs-note{display:grid;grid-template-columns:1fr 1fr;gap:16px 48px;margin:64px 0 0;padding-top:28px;border-top:1px solid var(--line-s)}
+.pkgs-note{display:grid;grid-template-columns:1fr 1fr;gap:16px 48px;margin:56px 0 0;padding-top:24px;border-top:1px solid var(--line)}
 .pkgs-note p{margin:0}
 .pkgs-note a{font-weight:600;text-underline-offset:3px}
 
-/* что входит: единственный тёмный блок */
-.dark{background:var(--ink);color:var(--on-dark);border-radius:var(--r);padding:80px 72px}
-.dark h2{max-width:14em}
-.dark .sec-intro{margin-bottom:40px}
-.tabs{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:48px}
-.tab{min-height:64px;padding:8px 28px;border:1px solid var(--line-d);border-radius:999px;background:transparent;color:var(--on-dark);font-family:inherit;font-weight:500;font-size:20px;line-height:1.15;cursor:pointer;text-align:left;transition:background-color .3s,color .3s,border-color .3s}
-.tab span{display:block;font-weight:400;font-size:16px}
-.tab[aria-selected="true"]{background:var(--on-dark);color:var(--ink);border-color:var(--on-dark)}
-.tab:hover:not([aria-selected="true"]){border-color:var(--on-dark)}
-.panel-grid{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:start}
+/* что входит: светлый блок, чипсы-вкладки, плитки предметов */
+.tabs{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:40px}
+.tab{min-height:50px;padding:8px 22px;border:0;border-radius:6px;background:var(--tile);color:var(--ink);font-family:inherit;font-weight:500;font-size:18px;line-height:1.2;cursor:pointer;transition:background-color .25s,color .25s}
+.tab span{font-weight:400;font-size:16px;margin-left:8px}
+.tab[aria-selected="true"]{background:var(--dark);color:#fff}
+.tab:hover:not([aria-selected="true"]){background:var(--line)}
+.panel-grid{display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:start}
 .scene{position:relative}
 .scene-img{position:relative;border-radius:var(--r);overflow:hidden}
 .scene-img img{width:100%;aspect-ratio:3/4;object-fit:cover}
-.scene-hint{margin:14px 0 0;font-size:16px}
-.hs{position:absolute;transform:translate(-50%,-50%);display:inline-flex;align-items:center;gap:10px;min-height:46px;padding:8px 18px 8px 14px;border:0;border-radius:999px;background:var(--page);color:var(--ink);font-family:inherit;font-weight:500;font-size:17px;line-height:1.1;cursor:pointer;white-space:nowrap;box-shadow:0 4px 18px rgba(0,0,0,.22);transition:background-color .3s,color .3s}
-.hs::before{content:"";width:9px;height:9px;border-radius:50%;background:var(--ink);box-shadow:0 0 0 4px rgba(23,23,22,.14);flex:none}
-.hs[aria-expanded="true"]{background:var(--ink);color:#fff}
+.scene-hint{margin:12px 0 0;font-size:16px}
+.hs{position:absolute;transform:translate(-50%,-50%);display:inline-flex;align-items:center;gap:10px;min-height:46px;padding:8px 18px 8px 14px;border:0;border-radius:999px;background:#fff;color:var(--ink);font-family:inherit;font-weight:600;font-size:16px;line-height:1.1;cursor:pointer;white-space:nowrap;box-shadow:0 4px 16px rgba(0,0,0,.2);transition:background-color .25s,color .25s}
+.hs::before{content:"";width:9px;height:9px;border-radius:50%;background:var(--dark);box-shadow:0 0 0 4px rgba(46,41,37,.15);flex:none}
+.hs[aria-expanded="true"]{background:var(--dark);color:#fff}
 .hs[aria-expanded="true"]::before{background:#fff;box-shadow:0 0 0 4px rgba(255,255,255,.25)}
-.hs-card{position:absolute;z-index:5;width:300px;padding:10px;border-radius:var(--r);background:var(--page);color:var(--ink);box-shadow:0 18px 44px rgba(0,0,0,.32);opacity:0;transform:translateY(8px);transition:opacity .3s,transform .3s cubic-bezier(.25,1,.5,1);pointer-events:none}
+.hs-card{position:absolute;z-index:5;width:300px;padding:10px;border-radius:8px;background:#fff;color:var(--ink);box-shadow:0 16px 40px rgba(0,0,0,.22);opacity:0;transform:translateY(8px);transition:opacity .25s,transform .25s;pointer-events:none}
 .hs-card.show{opacity:1;transform:none;pointer-events:auto}
-.hs-card img{width:100%;aspect-ratio:3/2;object-fit:cover;border-radius:2px;background:var(--tile)}
+.hs-card img{width:100%;aspect-ratio:3/2;object-fit:cover;border-radius:4px;background:var(--tile)}
 .hs-card .in{padding:12px 8px 6px}
-.hs-card h3{font-size:28px;margin:0 0 4px}
+.hs-card h3{font-size:21px;margin:0 0 4px}
 .hs-card p{margin:0;font-size:17px;line-height:1.5}
 .hs-card .stock{margin-bottom:6px}
 .hs-card .size{font-weight:600}
 .stock{display:block;font-size:16px}
-
-.items-title{font-size:36px;margin:0 0 6px}
-.items-hint{margin:0 0 24px;font-size:17px}
-.items{display:grid;grid-template-columns:1fr 1fr;gap:30px 16px;list-style:none;margin:0;padding:0}
-.item{position:relative;display:block;width:100%;padding:0;border:0;background:none;color:var(--on-dark);font:inherit;text-align:left;cursor:pointer}
-.item-ph{position:relative;display:block;border-radius:var(--r);overflow:hidden;background:#2a2a28}
+.items-title{font-size:26px;margin:0 0 6px}
+.items-hint{margin:0 0 22px;font-size:17px}
+.items{display:grid;grid-template-columns:1fr 1fr;gap:16px;list-style:none;margin:0;padding:0}
+.item{position:relative;display:block;width:100%;height:100%;padding:10px 10px 14px;border:0;border-radius:6px;background:var(--tile);color:var(--ink);font:inherit;text-align:left;cursor:pointer;transition:background-color .25s}
+.item:hover{background:var(--line)}
+.item-ph{position:relative;display:block;border-radius:4px;overflow:hidden;background:#fff}
 .item img{width:100%;aspect-ratio:4/3;object-fit:cover;transition:transform .8s cubic-bezier(.25,1,.5,1)}
-.item-name{display:block;margin:12px 0 2px;font-weight:500;font-size:18px;line-height:1.3}
-.item-more{position:absolute;left:8px;right:8px;bottom:8px;padding:12px 14px;border-radius:2px;background:var(--page);color:var(--ink);font-size:16px;line-height:1.45;opacity:0;transform:translateY(10px);transition:opacity .3s,transform .3s cubic-bezier(.25,1,.5,1)}
+.item-name{display:block;margin:12px 4px 2px;font-weight:600;font-size:17px;line-height:1.3}
+.item .stock{margin:0 4px}
+.item-more{position:absolute;left:8px;right:8px;bottom:8px;padding:12px 14px;border-radius:4px;background:#fff;color:var(--ink);font-size:16px;line-height:1.45;opacity:0;transform:translateY(10px);transition:opacity .25s,transform .25s}
 .item-more b{display:block;font-size:17px;margin-bottom:2px}
 .item[aria-expanded="true"] img{transform:scale(1.05)}
 .item[aria-expanded="true"] .item-more{opacity:1;transform:none}
@@ -183,15 +214,16 @@ section{scroll-margin-top:90px}
   .item:hover img{transform:scale(1.05)}
   .item:hover .item-more{opacity:1;transform:none}
 }
-.panel-cta{display:flex;flex-wrap:wrap;align-items:center;gap:14px 24px;margin-top:48px;padding-top:32px;border-top:1px solid var(--line-d)}
+.panel-cta{display:flex;flex-wrap:wrap;align-items:center;gap:14px 28px;margin-top:40px;padding-top:28px;border-top:1px solid var(--line)}
 .panel-cta p{margin:0}
 
-/* как работаем: настоящая последовательность, поэтому с номерами */
-.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:32px;list-style:none;margin:0;padding:0;counter-reset:s}
-.steps li{padding-top:22px;border-top:1px solid var(--ink);counter-increment:s}
-.steps li::before{content:counter(s);display:block;font-family:var(--serif);font-variant-numeric:lining-nums;font-weight:500;font-size:64px;line-height:1;margin-bottom:18px}
-.steps h3{font-size:30px;margin:0 0 10px}
-.steps p{margin:0}
+/* подгоним под вас: список-галочки и фото */
+.tailor{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:center}
+.checks{list-style:none;margin:0 0 30px;padding:0;display:grid;gap:10px}
+.checks li{display:flex;align-items:center;gap:14px;padding:14px 18px;border-radius:6px;background:var(--tile);font-weight:500}
+.checks .ico{width:24px;height:24px;stroke-width:2}
+.tailor-ph{border-radius:var(--r);overflow:hidden;background:var(--tile)}
+.tailor-ph img{width:100%;aspect-ratio:4/3;object-fit:cover}
 
 /* работы */
 .works{display:grid;grid-template-columns:repeat(4,1fr);grid-auto-rows:230px;grid-auto-flow:dense;gap:10px;list-style:none;margin:0;padding:0}
@@ -199,109 +231,142 @@ section{scroll-margin-top:90px}
 .works li:nth-child(4),.works li:nth-child(6),.works li:nth-child(8){grid-row:span 2}
 .works li:nth-child(10),.works li:nth-child(12){grid-column:span 2}
 .works a{display:block;height:100%;border-radius:var(--r);overflow:hidden;background:var(--tile)}
-.works img{width:100%;height:100%;object-fit:cover;transition:transform 1s cubic-bezier(.25,1,.5,1)}
+.works img{width:100%;height:100%;object-fit:cover;transition:transform .9s cubic-bezier(.25,1,.5,1)}
 .works a:hover img{transform:scale(1.03)}
 dialog.lb{border:0;padding:0;background:transparent;max-width:min(94vw,1100px);max-height:94vh}
-dialog.lb::backdrop{background:rgba(23,23,22,.92)}
-dialog.lb img{max-height:82vh;width:auto;margin:0 auto;border-radius:2px}
-.lb-close{display:flex;margin:14px auto 0;min-height:54px;padding:10px 32px;border:0;border-radius:999px;background:var(--page);color:var(--ink);font-family:inherit;font-weight:500;font-size:18px;cursor:pointer}
+dialog.lb::backdrop{background:rgba(20,17,14,.9)}
+dialog.lb img{max-height:82vh;width:auto;margin:0 auto;border-radius:var(--r)}
+.lb-close{display:flex;margin:14px auto 0;min-height:52px;padding:10px 30px;border:0;border-radius:var(--r);background:#fff;color:var(--ink);font-family:inherit;font-weight:600;font-size:16px;letter-spacing:.06em;text-transform:uppercase;cursor:pointer}
 
-/* отзывы: узкая колонка */
-.rv{max-width:860px;margin:0 auto;text-align:center}
-.rv-score{font-size:19px;margin:0 0 44px}
-.rv-score b{font-variant-numeric:lining-nums;font-family:var(--serif);font-weight:600;font-size:34px}
-.rv-score a{text-underline-offset:3px}
-.rv-big{margin:0 0 64px}
-.rv-big p{font-family:var(--serif);font-weight:500;font-size:clamp(28px,3vw,38px);line-height:1.35;margin:0 0 18px}
-.rv-who{font-size:16px;margin:0}
-.rv-big p.rv-who{font-family:"Onest",system-ui,sans-serif;font-weight:400;font-size:16px;line-height:1.5}
-.rv-grid{display:grid;grid-template-columns:1fr 1fr;gap:40px 64px;max-width:1040px;margin:0 auto;padding-top:44px;border-top:1px solid var(--line-s)}
-.rv-grid blockquote{margin:0}
-.rv-grid p{margin:0 0 10px}
+/* отзывы: карточки с инициалами */
+.rate{display:flex;flex-wrap:wrap;align-items:center;gap:8px 14px;margin:-16px 0 32px;font-size:17px}
+.rate b{font-size:24px}
+.stars{color:#E3A008;letter-spacing:2px}
+.rv{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;list-style:none;margin:0;padding:0}
+.rv li{display:flex;flex-direction:column;padding:24px;border:1px solid var(--line);border-radius:8px;background:#fff}
+.rv-who{display:flex;align-items:center;gap:12px;margin-bottom:14px}
+.ava{display:grid;place-items:center;width:44px;height:44px;border-radius:50%;background:var(--dark);color:#fff;font-weight:600;flex:none}
+.rv-who b{display:block;line-height:1.25}
+.rv-who small{font-size:16px}
+.rv p{margin:0}
 
-/* финальный блок: контакты и заявка */
-.final{display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:start}
-.final dl{margin:8px 0 30px}
-.final dt{font-size:16px;margin-top:18px}
-.final dd{margin:2px 0 0;font-size:22px;font-weight:500;line-height:1.4}
-.final dd a{text-decoration:none}
-.final-btns{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:48px}
-.final-media{display:grid;gap:10px}
-.final-media img{width:100%;aspect-ratio:16/10;object-fit:cover;border-radius:var(--r)}
-.map{width:100%;height:420px;border:0;border-radius:var(--r);background:var(--tile)}
-form{padding-top:34px;border-top:1px solid var(--line-s)}
-form h3{font-size:34px;margin:0 0 6px}
-form > p{margin:0 0 20px}
-.form-row{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-bottom:16px}
-label{display:block;font-weight:500;margin:0 0 6px;font-size:17px}
-input[type=text],input[type=tel]{width:100%;min-height:58px;padding:12px 16px;border:1px solid #8F8B84;border-radius:var(--r);background:#fff;color:var(--ink);font-family:inherit;font-size:19px}
-input:focus{border-color:var(--ink);outline:none;box-shadow:0 0 0 3px rgba(23,23,22,.12)}
-.check{display:flex;gap:12px;align-items:flex-start;font-weight:400;font-size:17px;margin-bottom:22px}
-.check input{width:24px;height:24px;flex:none;margin-top:2px;accent-color:var(--ink)}
-.form-ok{display:none;margin:0;padding:18px 20px;border-radius:var(--r);background:var(--page);font-weight:500}
+/* шоурум: фото с надписью */
+.show{position:relative;border-radius:var(--r);overflow:hidden;background:var(--tile)}
+.show img{width:100%;aspect-ratio:16/6;object-fit:cover}
+.show::after{content:"";position:absolute;inset:0;background:rgba(20,17,14,.45)}
+.show-in{position:absolute;inset:auto 0 0 0;z-index:1;padding:48px 56px;color:#fff}
+.show-in p{margin:0 0 8px;font-weight:600;font-size:16px;letter-spacing:.06em;text-transform:uppercase}
+.show-in h2{font-size:clamp(36px,4.4vw,60px);margin:0 0 22px}
+.contact{display:grid;grid-template-columns:1fr 1.3fr;gap:48px;margin-top:48px;align-items:start}
+.contact dl{margin:0 0 28px}
+.contact dt{font-size:16px;margin-top:16px}
+.contact dt:first-child{margin-top:0}
+.contact dd{margin:2px 0 0;font-size:21px;font-weight:600;line-height:1.4}
+.contact dd a{text-decoration:none}
+.contact-btns{display:flex;flex-wrap:wrap;gap:10px}
+.map{width:100%;height:380px;border:0;border-radius:var(--r);background:var(--tile)}
+
+/* заявка и частые вопросы */
+.ask{display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:start}
+form{padding:36px;border-radius:8px;background:var(--sand)}
+form h2{margin:0 0 8px}
+form > div > p{margin:0 0 22px}
+label{display:block;font-weight:600;margin:0 0 6px;font-size:17px}
+.field{margin-bottom:14px}
+input[type=text],input[type=tel]{width:100%;min-height:58px;padding:12px 16px;border:1px solid #CFC8BE;border-radius:4px;background:#fff;color:var(--ink);font-family:inherit;font-size:19px}
+input:focus{border-color:var(--ink);outline:none;box-shadow:0 0 0 3px rgba(31,29,27,.12)}
+.check{display:flex;gap:12px;align-items:flex-start;font-weight:400;font-size:17px;margin:6px 0 22px}
+.check input{width:24px;height:24px;flex:none;margin-top:2px;accent-color:var(--dark)}
+.form-ok{display:none;margin:0;padding:18px 20px;border-radius:4px;background:#fff;font-weight:600}
 form.sent .form-ok{display:block}
 form.sent .form-fields{display:none}
+.faq h2{margin:0 0 16px}
+.faq details{border-bottom:1px solid var(--line)}
+.faq summary{display:flex;justify-content:space-between;align-items:center;gap:16px;padding:18px 0;font-weight:600;cursor:pointer;list-style:none}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:"";width:28px;height:28px;flex:none;border-radius:50%;background:var(--tile) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%231F1D1B' stroke-width='2' stroke-linecap='round'%3E%3Cpath d='M7 10l5 5 5-5'/%3E%3C/svg%3E") center/18px no-repeat;transition:transform .25s}
+.faq details[open] summary::after{transform:rotate(180deg)}
+.faq details p{margin:0 0 18px}
+
+/* тёмный блок (используется на страницах пакетов) */
+.dark{background:var(--dark);color:var(--on-dark);border-radius:8px;padding:64px}
 
 /* подвал */
-footer{background:var(--ink);color:var(--on-dark);padding:56px 0 52px;font-size:17px}
-footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:24px}
-footer b{display:block;font-variant-numeric:lining-nums;font-family:var(--serif);font-weight:600;font-size:30px;letter-spacing:.14em;text-transform:uppercase;margin-bottom:8px}
+footer{background:var(--dark);color:var(--on-dark);padding:64px 0 40px;font-size:17px}
+.foot{display:grid;grid-template-columns:1.3fr 1fr 1fr 1fr;gap:32px}
+.foot b{display:block;margin-bottom:14px;font-weight:600}
+.foot .logo-f{font-weight:700;font-size:30px;letter-spacing:-.04em;margin-bottom:10px}
+.foot ul{list-style:none;margin:0;padding:0}
+.foot li{margin-bottom:8px}
+.foot a{text-decoration:none}
+.foot a:hover{text-decoration:underline}
+.foot-bottom{margin-top:48px;padding-top:24px;border-top:1px solid var(--line-d);font-size:16px}
 
 .callbar{display:none}
 
 @media (max-width:1180px){
-  .nav{display:none}
+  .switch{display:none}
+  .strip ul{justify-content:flex-start}
 }
 @media (max-width:1000px){
   .panel-grid{grid-template-columns:1fr}
   .scene{max-width:640px}
-  .pkgs{gap:24px}
-  .dark{padding:56px 32px}
-  .steps{grid-template-columns:1fr 1fr;gap:36px 32px}
+  .steps{grid-template-columns:1fr 1fr;gap:36px 28px}
+  .hero-in{grid-template-columns:1fr;padding:40px}
+  .facts{display:none}
+  .foot{grid-template-columns:1fr 1fr}
 }
 @media (max-width:900px){
-  .final{grid-template-columns:1fr;gap:44px}
   .band{padding:72px 0}
-  .pkgs{grid-template-columns:1fr;gap:56px}
-  .pkg img{aspect-ratio:4/3}
+  .band-cta .wrap,.tailor,.contact,.ask{grid-template-columns:1fr}
+  .band-cta .link{justify-self:start}
+  .pkgs{grid-template-columns:1fr;gap:48px}
   .pkgs-note{grid-template-columns:1fr}
   .works{grid-template-columns:repeat(2,1fr);grid-auto-rows:170px}
-  .rv{text-align:left}
+  .rv{grid-template-columns:1fr 1fr}
+  .show img{aspect-ratio:16/9}
+  .show-in{padding:32px}
 }
 @media (max-width:700px){
   :root{--gut:16px}
   body{padding-bottom:80px}
-  .top .wrap{min-height:66px;gap:14px}
-  .logo b{font-size:23px;letter-spacing:.1em}
-  .logo small{display:none}
+  .top .wrap{min-height:64px;gap:14px}
+  .logo b{font-size:26px}
   .top .btn{display:none}
-  .tel{font-size:19px}
-  .hero{padding-top:28px}
-  .hero h1{margin-bottom:22px}
-  .hero-row{margin-bottom:28px}
-  .hero-photo img{aspect-ratio:4/3}
-  .pkg h3{font-size:36px}
-  .dark{padding:44px 18px;margin:0 -8px}
-  .tabs{display:grid;grid-template-columns:1fr;gap:6px}
-  .tab{display:flex;align-items:center;justify-content:space-between;min-height:56px;padding:8px 20px;font-size:19px}
-  .tab span{font-size:16px}
+  .tel{font-size:18px}
+  .tel .ico{display:none}
+  .strip ul{gap:24px}
+  .hero{padding-top:16px}
+  .hero-box{background:none;overflow:visible}
+  .hero-box img{aspect-ratio:4/3;border-radius:var(--r)}
+  .hero-box::after{display:none}
+  .hero-in{position:static;padding:24px 0 0;color:var(--ink)}
+  .hero-in .btn-white{background:var(--dark);color:#fff}
+  .hero-in .btn-ghost{border-color:var(--ink);color:var(--ink)}
+  .hero-sub{font-size:15px}
   .steps{grid-template-columns:1fr;gap:28px}
-  .steps li::before{font-size:52px;margin-bottom:10px}
-  .items{gap:24px 10px}
-  .item-name{font-size:17px}
-  .item-more{left:6px;right:6px;bottom:6px;padding:9px 10px;font-size:15px}
+  .tabs{display:grid;grid-template-columns:1fr}
+  .tab{display:flex;justify-content:space-between;align-items:center}
+  .items{gap:10px}
+  .item{padding:6px 6px 10px}
+  .item-name{font-size:16px}
+  .item .stock{font-size:15px}
+  .item-more{left:4px;right:4px;bottom:4px;padding:8px 10px;font-size:15px}
   .item-more b{font-size:16px}
-  .hs{font-size:16px;min-height:44px;padding:6px 14px 6px 12px}
-  .hs-card{position:static;width:auto;margin-top:14px;display:none;transform:none;box-shadow:none}
+  .hs{font-size:15px;min-height:44px;padding:6px 14px 6px 12px}
+  .hs-card{position:static;width:auto;margin-top:14px;display:none;transform:none;box-shadow:none;border:1px solid var(--line)}
   .hs-card.show{display:grid;grid-template-columns:42% 1fr;gap:6px}
   .hs-card.show img{height:100%;aspect-ratio:auto}
   .hs-card .in{padding:4px 6px 4px 8px}
-  .hs-card h3{font-size:25px}
-  .rv-grid{grid-template-columns:1fr}
-  .form-row{grid-template-columns:1fr}
-  .map{height:340px}
-  .callbar{display:grid;grid-template-columns:1fr 1fr;gap:8px;position:fixed;left:0;right:0;bottom:0;z-index:20;padding:10px 12px calc(10px + env(safe-area-inset-bottom));background:var(--page);border-top:1px solid var(--line)}
-  .callbar .btn{min-height:56px;min-width:0;padding:8px 10px}
+  .rv{grid-template-columns:1fr}
+  .show img{aspect-ratio:4/3}
+  .show-in{padding:24px}
+  form{padding:22px}
+  .map{height:320px}
+  .dark{padding:36px 20px}
+  .foot{grid-template-columns:1fr}
+  .callbar{display:grid;grid-template-columns:1fr 1fr;gap:8px;position:fixed;left:0;right:0;bottom:0;z-index:20;padding:10px 12px calc(10px + env(safe-area-inset-bottom));background:#fff;border-top:1px solid var(--line)}
+  .callbar .btn{min-height:54px;padding:8px 10px;font-size:15px}
 }
 @media (prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
 </style>
@@ -311,93 +376,131 @@ footer b{display:block;font-variant-numeric:lining-nums;font-family:var(--serif)
 
 <header class="top" id="top">
   <div class="wrap">
-    <a class="logo" href="./"><b>Мебельян</b><small>магазин мебели, Ессентуки</small></a>
-    <nav class="nav" aria-label="Разделы">
-      <a href="#varianty">Варианты</a>
-      <a href="#sostav">Что входит</a>
-      <a href="#kak">Как работаем</a>
-      <a href="#kontakty">Контакты</a>
+    <a class="logo" href="./" aria-label="Мебельян, на главную"><b>мебельян</b></a>
+    <nav class="switch" aria-label="Главное">
+      <a href="#varianty">Пакеты</a>
+      <a href="#raboty">Наши работы</a>
     </nav>
-    <a class="tel" href="tel:+79283669548">+7 (928) 366-95-48</a>
+    <a class="tel" href="tel:+79283669548"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"/></svg>+7 (928) 366-95-48</a>
     <a class="btn btn-dark" href="https://wa.me/79283669548?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5%21%20%D0%A5%D0%BE%D1%87%D1%83%20%D0%BF%D0%BE%D0%B4%D0%BE%D0%B1%D1%80%D0%B0%D1%82%D1%8C%20%D0%BC%D0%B5%D0%B1%D0%B5%D0%BB%D1%8C%20%D0%B4%D0%BB%D1%8F%20%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80%D1%8B" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.15l-.3-.18-3 .78.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.25-.12-1.47-.72-1.7-.8-.23-.09-.4-.13-.56.12-.17.25-.64.8-.79.97-.14.16-.29.18-.54.06a6.7 6.7 0 0 1-3.3-2.9c-.25-.43.25-.4.71-1.33.08-.16.04-.3-.02-.42l-.76-1.83c-.2-.48-.4-.41-.56-.42h-.47a.9.9 0 0 0-.66.31 2.8 2.8 0 0 0-.86 2.07c0 1.22.89 2.4 1.01 2.57.12.16 1.75 2.67 4.24 3.74 1.57.68 2.19.74 2.98.62.48-.07 1.47-.6 1.68-1.18.2-.58.2-1.08.14-1.18-.06-.1-.23-.17-.48-.29z"/></svg>WhatsApp</a>
   </div>
+  <nav class="strip" aria-label="Разделы">
+    <ul>
+      <li><a href="#varianty">Все пакеты</a></li>
+      <li><a href="paket-ekonom.html">Эконом</a></li>
+      <li><a href="paket-komfort.html">Комфорт</a></li>
+      <li><a href="paket-lyuks.html">Люкс</a></li>
+      <li><a href="#sostav">Что входит</a></li>
+      <li><a href="#kak">Как работаем</a></li>
+      <li><a href="#otzyvy">Отзывы</a></li>
+      <li><a href="#kontakty">Контакты</a></li>
+    </ul>
+  </nav>
 </header>
 
 <main id="main">
   <section class="hero">
     <div class="wrap">
-      <p class="hero-where">Ессентуки, ул. Орджоникидзе, 79А. Каждый день с 10 до 19</p>
-      <h1>Обставим квартиру до 40&nbsp;м² под ключ</h1>
-      <div class="hero-row">
-        <p class="lead">Три готовых варианта мебели: выбираете свой, мы привозим и собираем.</p>
-        <div class="btns">
-          <a class="btn btn-dark" href="#varianty">Подобрать вариант</a>
-          <a class="btn btn-line" href="tel:+79283669548"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25c1.1.37 2.3.57 3.6.57a1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1z"/></svg>Позвонить</a>
+      <div class="hero-box">
+        <picture>
+          <source media="(max-width: 700px)" srcset="img/hero-m-480.webp 480w, img/hero-m-800.webp 800w" sizes="calc(100vw - 32px)" width="800" height="600">
+          <img src="img/hero-w-1920.webp" srcset="img/hero-w-1280.webp 1280w, img/hero-w-1920.webp 1920w" sizes="(min-width: 1240px) 1192px, 100vw" width="1920" height="1072" alt="Шоурум Мебельян: диваны, кресла, стеллажи с пуфами и вывеска Мебельян на стене" fetchpriority="high">
+        </picture>
+        <div class="hero-in">
+          <div>
+            <h1>Обставим квартиру до 40&nbsp;м² под ключ</h1>
+            <p class="hero-sub">От пустых стен до готовой квартиры</p>
+            <div class="btns">
+              <a class="btn btn-white" href="#varianty">Все пакеты</a>
+              <a class="btn btn-ghost" href="tel:+79283669548"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25c1.1.37 2.3.57 3.6.57a1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1z"/></svg>Позвонить</a>
+            </div>
+          </div>
+          <ul class="facts">
+            <li><b>4,5</b>рейтинг на Яндекс Картах</li>
+            <li><b>3 пакета</b>для квартиры до 40 м²</li>
+            <li><b>10:00–19:00</b>шоурум открыт каждый день</li>
+          </ul>
         </div>
       </div>
     </div>
-    <figure class="hero-photo">
-      <picture>
-        <source media="(max-width: 700px)" srcset="img/hero-m-480.webp 480w, img/hero-m-800.webp 800w" sizes="calc(100vw - 32px)" width="800" height="600">
-        <img src="img/hero-w-1920.webp" srcset="img/hero-w-1280.webp 1280w, img/hero-w-1920.webp 1920w" sizes="(min-width: 1240px) 1192px, 100vw" width="1920" height="1072" alt="Шоурум Мебельян: диваны, кресла, стеллажи с пуфами и вывеска Мебельян на стене" fetchpriority="high">
-      </picture>
-      <figcaption class="hero-cap">
-        <span>Наш шоурум на Орджоникидзе, 79А, цокольный этаж</span>
-        <a href="https://yandex.ru/maps/org/mebelyan/235050883905/reviews/" target="_blank" rel="noopener"><b>4,5</b> из 5 на Яндекс Картах, 45 оценок</a>
-      </figcaption>
-    </figure>
   </section>
 
-  <section class="band stone" id="varianty" aria-labelledby="varianty-h">
+  <section class="band-cta" aria-labelledby="cta-h" style="margin-top:24px">
     <div class="wrap">
-      <h2 class="sec-title" id="varianty-h">Три варианта обстановки</h2>
-      <p class="sec-intro">Для квартиры до 40 м². Состав подгоним под вашу планировку, привезём и соберём.</p>
+      <div>
+        <h2 id="cta-h">Подгоним пакет под вашу квартиру</h2>
+        <p>Пришлите планировку: уберём лишнее, добавим нужное, подберём ткани и цвета под ваш интерьер и бюджет.</p>
+      </div>
+      <a class="link" href="https://wa.me/79283669548?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5%21%20%D0%A5%D0%BE%D1%87%D1%83%20%D0%BF%D0%BE%D0%B4%D0%BE%D0%B1%D1%80%D0%B0%D1%82%D1%8C%20%D0%BC%D0%B5%D0%B1%D0%B5%D0%BB%D1%8C%20%D0%B4%D0%BB%D1%8F%20%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80%D1%8B" target="_blank" rel="noopener">Прислать планировку</a>
+    </div>
+  </section>
+
+  <section class="band" id="kak" aria-labelledby="kak-h">
+    <div class="wrap">
+      <h2 id="kak-h" style="margin-bottom:40px">4 шага до готовой квартиры</h2>
+      <ol class="steps">
+        <li><div class="step-top"><span class="step-ic"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"/></svg></span></div><h3>Звоните или пишете</h3><p>Расскажите, какая квартира. Можно сразу прислать планировку в WhatsApp.</p></li>
+        <li><div class="step-top"><span class="step-ic"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 15l12-12 6 6-12 12z"/><path d="M7 11l2 2M10 8l2 2M13 5l2 2"/></svg></span></div><h3>Замер</h3><p>Приедем и снимем размеры, чтобы шкафы и кухня встали точно.</p></li>
+        <li><div class="step-top"><span class="step-ic"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 11V8a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v3"/><path d="M2 13a2 2 0 0 1 4 0v2h12v-2a2 2 0 0 1 4 0v4H2z"/><path d="M5 17v2M19 17v2"/></svg></span></div><h3>Выбор в шоуруме</h3><p>Садитесь на диваны, выбираете ткани и цвета. Фиксируем состав, цену и сроки.</p></li>
+        <li><div class="step-top"><span class="step-ic"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M2 6h11v10H2zM13 9h4l4 4v3h-8z"/><circle cx="6" cy="18" r="2"/><circle cx="17" cy="18" r="2"/></svg></span></div><h3>Привозим и собираем</h3><p>Доставка, подъём и сборка. Вам остаётся заселиться.</p></li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="band sand" id="varianty" aria-labelledby="varianty-h">
+    <div class="wrap">
+      <div class="sec-head">
+        <h2 id="varianty-h">Три варианта обстановки</h2>
+        <a class="link" href="paket-komfort.html#cmp-h">Сравнить пакеты</a>
+      </div>
+      <p class="incl"><b>Для квартиры до 40 м². Делаем сами:</b>
+        <span><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 15l12-12 6 6-12 12z"/><path d="M7 11l2 2M10 8l2 2M13 5l2 2"/></svg>замер</span>
+        <span><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M2 6h11v10H2zM13 9h4l4 4v3h-8z"/><circle cx="6" cy="18" r="2"/><circle cx="17" cy="18" r="2"/></svg>доставка и подъём</span>
+        <span><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M14 6l4 4M4 20l6-6M13 3l8 8-3 3-8-8z"/></svg>сборка</span>
+      </p>
       <ul class="pkgs">
         <li class="pkg">
-          <a class="pkg-ph" href="paket-ekonom.html" tabindex="-1" aria-hidden="true"><img src="img/pkg-econom-600.webp" srcset="img/pkg-econom-480.webp 480w, img/pkg-econom-600.webp 600w" sizes="(min-width: 900px) 32vw, 100vw" width="600" height="680" loading="lazy" alt="Угловой диван бирюзового цвета в небольшой комнате"></a>
+          <a class="pkg-ph" href="paket-ekonom.html" tabindex="-1" aria-hidden="true"><img src="img/pkg-econom-600.webp" srcset="img/pkg-econom-480.webp 480w, img/pkg-econom-600.webp 600w" sizes="(min-width: 900px) 32vw, 100vw" width="600" height="680" loading="lazy" alt="Угловой диван бирюзового цвета в небольшой комнате"><span class="chip">5 предметов</span></a>
           <h3><a href="paket-ekonom.html">Эконом</a></h3>
           <!-- TODO: цена от клиента -->
-          <p class="price">от 180 000 <small>₽</small></p>
+          <p class="price">от 180 000 ₽</p>
           <p class="for">Для съёмной квартиры или первой своей: всё нужное, без лишнего.</p>
           <p class="what">Диван-кровать, шкаф, стол и стулья, комод, прихожая.</p>
-          <div class="pkg-btns"><a class="btn btn-dark" href="https://wa.me/79283669548?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5%21%20%D0%98%D0%BD%D1%82%D0%B5%D1%80%D0%B5%D1%81%D1%83%D0%B5%D1%82%20%D0%BF%D0%B0%D0%BA%D0%B5%D1%82%20%D0%AD%D0%BA%D0%BE%D0%BD%D0%BE%D0%BC" target="_blank" rel="noopener">Хочу этот вариант</a><a class="more" href="paket-ekonom.html">Подробнее о пакете</a></div>
+          <div class="pkg-btns"><a class="btn btn-dark" href="paket-ekonom.html">Подробнее</a><a class="more" href="https://wa.me/79283669548?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5%21%20%D0%98%D0%BD%D1%82%D0%B5%D1%80%D0%B5%D1%81%D1%83%D0%B5%D1%82%20%D0%BF%D0%B0%D0%BA%D0%B5%D1%82%20%D0%AD%D0%BA%D0%BE%D0%BD%D0%BE%D0%BC" target="_blank" rel="noopener">Хочу этот вариант</a></div>
         </li>
         <li class="pkg">
-          <a class="pkg-ph" href="paket-komfort.html" tabindex="-1" aria-hidden="true"><img src="img/pkg-comfort-768.webp" srcset="img/pkg-comfort-480.webp 480w, img/pkg-comfort-768.webp 768w" sizes="(min-width: 900px) 32vw, 100vw" width="768" height="871" loading="lazy" alt="Большой угловой диван в светлой гостиной с портьерами"></a>
+          <a class="pkg-ph" href="paket-komfort.html" tabindex="-1" aria-hidden="true"><img src="img/pkg-comfort-768.webp" srcset="img/pkg-comfort-480.webp 480w, img/pkg-comfort-768.webp 768w" sizes="(min-width: 900px) 32vw, 100vw" width="768" height="871" loading="lazy" alt="Большой угловой диван в светлой гостиной с портьерами"><span class="chip">7 предметов</span></a>
           <h3><a href="paket-komfort.html">Комфорт</a></h3>
           <!-- TODO: цена от клиента -->
-          <p class="price">от 320 000 <small>₽</small></p>
+          <p class="price">от 320 000 ₽</p>
           <p class="for">Для себя надолго: удобный диван, хорошая кровать и кухня.</p>
           <p class="what">Диван, кровать с матрасом, шкаф-купе, стол и стулья, ТВ-тумба, прихожая, угловая кухня.</p>
-          <div class="pkg-btns"><a class="btn btn-dark" href="https://wa.me/79283669548?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5%21%20%D0%98%D0%BD%D1%82%D0%B5%D1%80%D0%B5%D1%81%D1%83%D0%B5%D1%82%20%D0%BF%D0%B0%D0%BA%D0%B5%D1%82%20%D0%9A%D0%BE%D0%BC%D1%84%D0%BE%D1%80%D1%82" target="_blank" rel="noopener">Хочу этот вариант</a><a class="more" href="paket-komfort.html">Подробнее о пакете</a></div>
+          <div class="pkg-btns"><a class="btn btn-dark" href="paket-komfort.html">Подробнее</a><a class="more" href="https://wa.me/79283669548?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5%21%20%D0%98%D0%BD%D1%82%D0%B5%D1%80%D0%B5%D1%81%D1%83%D0%B5%D1%82%20%D0%BF%D0%B0%D0%BA%D0%B5%D1%82%20%D0%9A%D0%BE%D0%BC%D1%84%D0%BE%D1%80%D1%82" target="_blank" rel="noopener">Хочу этот вариант</a></div>
         </li>
         <li class="pkg">
-          <a class="pkg-ph" href="paket-lyuks.html" tabindex="-1" aria-hidden="true"><img src="img/pkg-lux-800.webp" srcset="img/pkg-lux-480.webp 480w, img/pkg-lux-800.webp 800w" sizes="(min-width: 900px) 32vw, 100vw" width="800" height="1067" loading="lazy" alt="Гостиная в шоуруме: кресла, камин и стеллаж из дерева"></a>
+          <a class="pkg-ph" href="paket-lyuks.html" tabindex="-1" aria-hidden="true"><img src="img/pkg-lux-800.webp" srcset="img/pkg-lux-480.webp 480w, img/pkg-lux-800.webp 800w" sizes="(min-width: 900px) 32vw, 100vw" width="800" height="1067" loading="lazy" alt="Гостиная в шоуруме: кресла, камин и стеллаж из дерева"><span class="chip">8 предметов</span></a>
           <h3><a href="paket-lyuks.html">Люкс</a></h3>
           <!-- TODO: цена от клиента -->
-          <p class="price">от 550 000 <small>₽</small></p>
+          <p class="price">от 550 000 ₽</p>
           <p class="for">Когда хочется красиво: мебель из шоурума, ткани и цвета на выбор.</p>
           <p class="what">Угловой диван, кровать с банкеткой, шкаф до потолка, стол и стулья, ТВ-зона с камином, прихожая, кухня, кресло.</p>
-          <div class="pkg-btns"><a class="btn btn-dark" href="https://wa.me/79283669548?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5%21%20%D0%98%D0%BD%D1%82%D0%B5%D1%80%D0%B5%D1%81%D1%83%D0%B5%D1%82%20%D0%BF%D0%B0%D0%BA%D0%B5%D1%82%20%D0%9B%D1%8E%D0%BA%D1%81" target="_blank" rel="noopener">Хочу этот вариант</a><a class="more" href="paket-lyuks.html">Подробнее о пакете</a></div>
+          <div class="pkg-btns"><a class="btn btn-dark" href="paket-lyuks.html">Подробнее</a><a class="more" href="https://wa.me/79283669548?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5%21%20%D0%98%D0%BD%D1%82%D0%B5%D1%80%D0%B5%D1%81%D1%83%D0%B5%D1%82%20%D0%BF%D0%B0%D0%BA%D0%B5%D1%82%20%D0%9B%D1%8E%D0%BA%D1%81" target="_blank" rel="noopener">Хочу этот вариант</a></div>
         </li>
       </ul>
-      <div class="pkgs-note"><p>Цена «от» примерная. Точную посчитаем по вашей квартире: <a href="https://wa.me/79283669548?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5%21%20%D0%A5%D0%BE%D1%87%D1%83%20%D0%BF%D0%BE%D0%B4%D0%BE%D0%B1%D1%80%D0%B0%D1%82%D1%8C%20%D0%BC%D0%B5%D0%B1%D0%B5%D0%BB%D1%8C%20%D0%B4%D0%BB%D1%8F%20%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80%D1%8B" target="_blank" rel="noopener">пришлите планировку в WhatsApp</a>, ответим в тот же день.</p><p>Оплата наличными, картой, переводом или по СБП. Есть рассрочка.</p></div>
+      <div class="pkgs-note"><p>Цена «от» за весь комплект и примерная. Точную посчитаем по вашей квартире: <a href="https://wa.me/79283669548?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5%21%20%D0%A5%D0%BE%D1%87%D1%83%20%D0%BF%D0%BE%D0%B4%D0%BE%D0%B1%D1%80%D0%B0%D1%82%D1%8C%20%D0%BC%D0%B5%D0%B1%D0%B5%D0%BB%D1%8C%20%D0%B4%D0%BB%D1%8F%20%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80%D1%8B" target="_blank" rel="noopener">пришлите планировку в WhatsApp</a>, ответим в тот же день.</p><p>Оплата наличными, картой, переводом или по СБП. Есть рассрочка.</p></div>
     </div>
   </section>
 
   <section class="band" id="sostav" aria-labelledby="sostav-h">
     <div class="wrap">
-      <div class="dark">
-        <h2 id="sostav-h">Что входит в каждый вариант</h2>
-        <p class="sec-intro">Наведите на подпись на фото или нажмите на неё: покажем вещь крупно, её размер и есть ли она в наличии.</p>
-
-        <div class="tabs" role="tablist" aria-label="Варианты обстановки">
-          <button class="tab" role="tab" id="t1" aria-controls="p1" aria-selected="true">Эконом<span>от 180 000 ₽</span></button>
-          <button class="tab" role="tab" id="t2" aria-controls="p2" aria-selected="false" tabindex="-1">Комфорт<span>от 320 000 ₽</span></button>
-          <button class="tab" role="tab" id="t3" aria-controls="p3" aria-selected="false" tabindex="-1">Люкс<span>от 550 000 ₽</span></button>
-        </div>
-
-        <!-- TODO: размеры, наличие и описания всех предметов ниже — плейсхолдеры, уточнить у клиента -->
+      <h2 id="sostav-h">Что входит в каждый вариант</h2>
+      <p class="sec-intro">Наведите на подпись на фото или нажмите на неё: покажем вещь крупно, её размер и есть ли она в наличии.</p>
+      <div class="tabs" role="tablist" aria-label="Варианты обстановки">
+        <button class="tab" role="tab" id="t1" aria-controls="p1" aria-selected="true">Эконом<span>от 180 000 ₽</span></button>
+        <button class="tab" role="tab" id="t2" aria-controls="p2" aria-selected="false" tabindex="-1">Комфорт<span>от 320 000 ₽</span></button>
+        <button class="tab" role="tab" id="t3" aria-controls="p3" aria-selected="false" tabindex="-1">Люкс<span>от 550 000 ₽</span></button>
+      </div>
+      <!-- TODO: размеры, наличие и описания всех предметов ниже — плейсхолдеры, уточнить у клиента -->
         <div class="panel" role="tabpanel" id="p1" aria-labelledby="t1">
           <div class="panel-grid">
             <div class="scene">
@@ -421,7 +524,7 @@ footer b{display:block;font-variant-numeric:lining-nums;font-family:var(--serif)
               </ul>
             </div>
           </div>
-          <div class="panel-cta"><a class="btn btn-light" href="https://wa.me/79283669548?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5%21%20%D0%98%D0%BD%D1%82%D0%B5%D1%80%D0%B5%D1%81%D1%83%D0%B5%D1%82%20%D0%BF%D0%B0%D0%BA%D0%B5%D1%82%20%D0%AD%D0%BA%D0%BE%D0%BD%D0%BE%D0%BC" target="_blank" rel="noopener">Хочу вариант «Эконом»</a><a class="more more-l" href="paket-ekonom.html">Всё о пакете «Эконом»</a></div>
+          <div class="panel-cta"><a class="btn btn-dark" href="https://wa.me/79283669548?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5%21%20%D0%98%D0%BD%D1%82%D0%B5%D1%80%D0%B5%D1%81%D1%83%D0%B5%D1%82%20%D0%BF%D0%B0%D0%BA%D0%B5%D1%82%20%D0%AD%D0%BA%D0%BE%D0%BD%D0%BE%D0%BC" target="_blank" rel="noopener">Хочу вариант «Эконом»</a><a class="more" href="paket-ekonom.html">Всё о пакете «Эконом»</a></div>
         </div>
 
         <div class="panel" role="tabpanel" id="p2" aria-labelledby="t2" hidden>
@@ -450,7 +553,7 @@ footer b{display:block;font-variant-numeric:lining-nums;font-family:var(--serif)
               </ul>
             </div>
           </div>
-          <div class="panel-cta"><a class="btn btn-light" href="https://wa.me/79283669548?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5%21%20%D0%98%D0%BD%D1%82%D0%B5%D1%80%D0%B5%D1%81%D1%83%D0%B5%D1%82%20%D0%BF%D0%B0%D0%BA%D0%B5%D1%82%20%D0%9A%D0%BE%D0%BC%D1%84%D0%BE%D1%80%D1%82" target="_blank" rel="noopener">Хочу вариант «Комфорт»</a><a class="more more-l" href="paket-komfort.html">Всё о пакете «Комфорт»</a></div>
+          <div class="panel-cta"><a class="btn btn-dark" href="https://wa.me/79283669548?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5%21%20%D0%98%D0%BD%D1%82%D0%B5%D1%80%D0%B5%D1%81%D1%83%D0%B5%D1%82%20%D0%BF%D0%B0%D0%BA%D0%B5%D1%82%20%D0%9A%D0%BE%D0%BC%D1%84%D0%BE%D1%80%D1%82" target="_blank" rel="noopener">Хочу вариант «Комфорт»</a><a class="more" href="paket-komfort.html">Всё о пакете «Комфорт»</a></div>
         </div>
 
         <div class="panel" role="tabpanel" id="p3" aria-labelledby="t3" hidden>
@@ -481,29 +584,34 @@ footer b{display:block;font-variant-numeric:lining-nums;font-family:var(--serif)
               </ul>
             </div>
           </div>
-          <div class="panel-cta"><a class="btn btn-light" href="https://wa.me/79283669548?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5%21%20%D0%98%D0%BD%D1%82%D0%B5%D1%80%D0%B5%D1%81%D1%83%D0%B5%D1%82%20%D0%BF%D0%B0%D0%BA%D0%B5%D1%82%20%D0%9B%D1%8E%D0%BA%D1%81" target="_blank" rel="noopener">Хочу вариант «Люкс»</a><a class="more more-l" href="paket-lyuks.html">Всё о пакете «Люкс»</a></div>
+          <div class="panel-cta"><a class="btn btn-dark" href="https://wa.me/79283669548?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5%21%20%D0%98%D0%BD%D1%82%D0%B5%D1%80%D0%B5%D1%81%D1%83%D0%B5%D1%82%20%D0%BF%D0%B0%D0%BA%D0%B5%D1%82%20%D0%9B%D1%8E%D0%BA%D1%81" target="_blank" rel="noopener">Хочу вариант «Люкс»</a><a class="more" href="paket-lyuks.html">Всё о пакете «Люкс»</a></div>
         </div>
+    </div>
+  </section>
+
+  <section class="band sand" aria-labelledby="tailor-h">
+    <div class="wrap tailor">
+      <div>
+        <h2 id="tailor-h">Выберите пакет, а мы подгоним его под вас</h2>
+        <p class="lead">Пакет — это основа. Дальше меняем то, что нужно именно вам.</p>
+        <ul class="checks">
+          <li><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12l5 5L20 7"/></svg>Поменяем ткань, цвет и фурнитуру</li>
+          <li><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12l5 5L20 7"/></svg>Уберём лишнее или добавим своё</li>
+          <li><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12l5 5L20 7"/></svg>Сделаем шкафы, кухню и диван по вашим размерам</li>
+          <li><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12l5 5L20 7"/></svg>Есть рассрочка</li>
+        </ul>
+        <a class="btn btn-dark" href="https://wa.me/79283669548?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5%21%20%D0%A5%D0%BE%D1%87%D1%83%20%D0%BF%D0%BE%D0%B4%D0%BE%D0%B1%D1%80%D0%B0%D1%82%D1%8C%20%D0%BC%D0%B5%D0%B1%D0%B5%D0%BB%D1%8C%20%D0%B4%D0%BB%D1%8F%20%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80%D1%8B" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.15l-.3-.18-3 .78.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.25-.12-1.47-.72-1.7-.8-.23-.09-.4-.13-.56.12-.17.25-.64.8-.79.97-.14.16-.29.18-.54.06a6.7 6.7 0 0 1-3.3-2.9c-.25-.43.25-.4.71-1.33.08-.16.04-.3-.02-.42l-.76-1.83c-.2-.48-.4-.41-.56-.42h-.47a.9.9 0 0 0-.66.31 2.8 2.8 0 0 0-.86 2.07c0 1.22.89 2.4 1.01 2.57.12.16 1.75 2.67 4.24 3.74 1.57.68 2.19.74 2.98.62.48-.07 1.47-.6 1.68-1.18.2-.58.2-1.08.14-1.18-.06-.1-.23-.17-.48-.29z"/></svg>Обсудить в WhatsApp</a>
       </div>
+      <div class="tailor-ph"><img src="img/w10-960.webp" srcset="img/w10-480.webp 480w, img/w10-960.webp 960w" sizes="(min-width: 900px) 50vw, 100vw" width="960" height="1280" loading="lazy" alt="Круглый стол и бежевые стулья в светлой гостиной покупателя"></div>
     </div>
   </section>
 
-  <section class="band" id="kak" aria-labelledby="kak-h" style="padding-top:0">
+  <section class="band" id="raboty" aria-labelledby="raboty-h">
     <div class="wrap">
-      <h2 class="sec-title" id="kak-h">Как работаем</h2>
-      <p class="sec-intro">От звонка до собранной мебели. Вам не нужно ничего возить и собирать самим.</p>
-      <ol class="steps">
-        <li><h3>Звоните или пишете</h3><p>Расскажите, какая квартира. Можно сразу прислать планировку в WhatsApp.</p></li>
-        <li><h3>Замер</h3><p>Приедем и снимем размеры, чтобы шкафы и кухня встали точно.</p></li>
-        <li><h3>Выбор в шоуруме</h3><p>Садитесь на диваны, выбираете ткани и цвета. Фиксируем состав, цену и сроки.</p></li>
-        <li><h3>Привозим и собираем</h3><p>Доставка, подъём и сборка. Вам остаётся заселиться.</p></li>
-      </ol>
-    </div>
-  </section>
-
-  <section class="band" id="raboty" aria-labelledby="raboty-h" style="padding-top:0">
-    <div class="wrap">
-      <h2 id="raboty-h">Наши работы</h2>
-      <p class="sec-intro">Кухни, шкафы и диваны у покупателей дома. Нажмите на фото, чтобы рассмотреть.</p>
+      <div class="sec-head">
+        <h2 id="raboty-h">Наши работы</h2>
+        <p style="margin:0">Кухни, шкафы и диваны у покупателей дома. Нажмите на фото, чтобы рассмотреть.</p>
+      </div>
       <ul class="works">
         <li><a href="img/w01-960.webp"><img src="img/w01-480.webp" srcset="img/w01-480.webp 480w, img/w01-960.webp 960w" sizes="(min-width: 900px) 50vw, 100vw" width="960" height="720" loading="lazy" alt="Кухня с тёмно-синими фасадами и деревянными верхними шкафами"></a></li>
         <li><a href="img/w02-960.webp"><img src="img/w02-480.webp" width="480" height="640" loading="lazy" alt="Светлая прямая кухня со встроенной техникой"></a></li>
@@ -521,58 +629,72 @@ footer b{display:block;font-variant-numeric:lining-nums;font-family:var(--serif)
     </div>
   </section>
 
-  <section class="band stone" id="otzyvy" aria-labelledby="otzyvy-h">
+  <section class="band" id="otzyvy" aria-labelledby="otzyvy-h" style="padding-top:0">
     <div class="wrap">
-      <div class="rv">
-        <h2 id="otzyvy-h">Что пишут покупатели</h2>
-        <p class="rv-score"><b>4,5</b> из 5 на Яндекс Картах: 45 оценок, 33 отзыва. <a href="https://yandex.ru/maps/org/mebelyan/235050883905/reviews/" target="_blank" rel="noopener">Все отзывы</a></p>
-        <blockquote class="rv-big">
-          <p>«Надо было за короткий срок приобрести комплект мебели. Помогли подобрать, выбрать. Договорились по срокам (они были сжатые). Все сделали вовремя, результатом довольна».</p>
-          <p class="rv-who">Оксана М., 6 июня 2024</p>
-        </blockquote>
+      <h2 id="otzyvy-h">Что пишут покупатели</h2>
+      <p class="rate"><b>4,5</b><span class="stars" aria-hidden="true">★★★★★</span><span>45 оценок и 33 отзыва на Яндекс Картах.</span><a class="more" href="https://yandex.ru/maps/org/mebelyan/235050883905/reviews/" target="_blank" rel="noopener">Все отзывы</a></p>
+      <ul class="rv">
+        <li><div class="rv-who"><span class="ava" aria-hidden="true">О</span><span><b>Оксана М.</b><small>6 июня 2024</small></span></div><p>«Надо было за короткий срок приобрести комплект мебели. Помогли подобрать, выбрать. Договорились по срокам (они были сжатые). Все сделали вовремя, результатом довольна».</p></li>
+        <li><div class="rv-who"><span class="ava" aria-hidden="true">В</span><span><b>Виктория Кривко</b><small>15 июля 2023</small></span></div><p>«Я брала спальню, кухню, мягкую и прихожую. Мебель пришла в срок, все собрано отлично, без нареканий».</p></li>
+        <li><div class="rv-who"><span class="ava" aria-hidden="true">Е</span><span><b>Елена Горбанева</b><small>16 января 2026</small></span></div><p>«Заказывали диван перед Новым годом, очень боялись, что не успеют сделать, привезли вовремя как договаривались».</p></li>
+        <li><div class="rv-who"><span class="ava" aria-hidden="true">М</span><span><b>Мария Макаренко</b><small>16 ноября 2022</small></span></div><p>«Искали угловой диван не стандартного размера, нам нужен был маленький. Предложили варианты моделей, ткань оббивки. Качество, изготовление на высоте».</p></li>
+        <li><div class="rv-who"><span class="ava" aria-hidden="true">Л</span><span><b>Лариса С.</b><small>5 июня 2024</small></span></div><p>«Мне нужны были стулья на кухню бежевые с белыми ножками… И нужная расцветка, и быстрая доставка, все было на высоте!»</p></li>
+        <li><div class="rv-who"><span class="ava" aria-hidden="true">Я</span><span><b>Яна А.</b><small>2 февраля 2025</small></span></div><p>«Отличный магазин с хорошим выбором качественной мебели, заказали кухню, отдельная благодарность за грамотную консультацию».</p></li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="band" id="kontakty" aria-labelledby="kontakty-h" style="padding-top:0">
+    <div class="wrap">
+      <div class="show">
+        <img src="img/shop-960.webp" srcset="img/shop-480.webp 480w, img/shop-960.webp 960w" sizes="(min-width: 1240px) 1192px, 100vw" width="960" height="720" loading="lazy" alt="Вход в магазин Мебельян с улицы Орджоникидзе">
+        <div class="show-in">
+          <p>Ессентуки, ул. Орджоникидзе, 79А</p>
+          <h2 id="kontakty-h">Шоурум, где можно всё потрогать</h2>
+          <a class="btn btn-white" href="https://yandex.ru/maps/org/mebelyan/235050883905/" target="_blank" rel="noopener">Построить маршрут</a>
+        </div>
       </div>
-      <div class="rv-grid">
-        <blockquote><p>«Я брала спальню, кухню, мягкую и прихожую. Мебель пришла в срок, все собрано отлично, без нареканий».</p><p class="rv-who">Виктория Кривко, 15 июля 2023</p></blockquote>
-        <blockquote><p>«Заказывали диван перед Новым годом, очень боялись, что не успеют сделать, привезли вовремя как договаривались».</p><p class="rv-who">Елена Горбанева, 16 января 2026</p></blockquote>
-        <blockquote><p>«Искали угловой диван не стандартного размера, нам нужен был маленький. Предложили варианты моделей, ткань оббивки. Качество, изготовление на высоте».</p><p class="rv-who">Мария Макаренко, 16 ноября 2022</p></blockquote>
-        <blockquote><p>«Мне нужны были стулья на кухню бежевые с белыми ножками… И нужная расцветка, и быстрая доставка, все было на высоте!»</p><p class="rv-who">Лариса С., 5 июня 2024</p></blockquote>
+      <div class="contact">
+        <div>
+          <dl>
+            <dt>Адрес</dt><dd>Ессентуки, ул. Орджоникидзе, 79А, цокольный этаж</dd>
+            <dt>Часы работы</dt><dd>Каждый день с 10:00 до 19:00</dd>
+            <dt>Телефон</dt><dd><a href="tel:+79283669548">+7 (928) 366-95-48</a></dd>
+          </dl>
+          <div class="contact-btns">
+            <a class="btn btn-dark" href="tel:+79283669548"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25c1.1.37 2.3.57 3.6.57a1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1z"/></svg>Позвонить</a>
+            <a class="btn btn-line" href="https://wa.me/79283669548?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5%21%20%D0%A5%D0%BE%D1%87%D1%83%20%D0%BF%D0%BE%D0%B4%D0%BE%D0%B1%D1%80%D0%B0%D1%82%D1%8C%20%D0%BC%D0%B5%D0%B1%D0%B5%D0%BB%D1%8C%20%D0%B4%D0%BB%D1%8F%20%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80%D1%8B" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.15l-.3-.18-3 .78.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.25-.12-1.47-.72-1.7-.8-.23-.09-.4-.13-.56.12-.17.25-.64.8-.79.97-.14.16-.29.18-.54.06a6.7 6.7 0 0 1-3.3-2.9c-.25-.43.25-.4.71-1.33.08-.16.04-.3-.02-.42l-.76-1.83c-.2-.48-.4-.41-.56-.42h-.47a.9.9 0 0 0-.66.31 2.8 2.8 0 0 0-.86 2.07c0 1.22.89 2.4 1.01 2.57.12.16 1.75 2.67 4.24 3.74 1.57.68 2.19.74 2.98.62.48-.07 1.47-.6 1.68-1.18.2-.58.2-1.08.14-1.18-.06-.1-.23-.17-.48-.29z"/></svg>WhatsApp</a>
+            <a class="btn btn-line" href="https://t.me/Mebelyan" target="_blank" rel="noopener">Telegram</a>
+          </div>
+        </div>
+        <iframe class="map" title="Мебельян на Яндекс Картах" src="https://yandex.ru/map-widget/v1/?ll=42.881265%2C44.049368&amp;z=16&amp;oid=235050883905&amp;ol=biz" loading="lazy" allowfullscreen></iframe>
       </div>
     </div>
   </section>
 
-  <section class="band" id="kontakty" aria-labelledby="kontakty-h">
-    <div class="wrap final">
-      <div>
-        <h2 id="kontakty-h">Приезжайте посмотреть или оставьте телефон</h2>
-        <p class="lead">Мебель стоит в шоуруме: можно посидеть на диване и потрогать ткани.</p>
-        <dl>
-          <dt>Адрес</dt><dd>Ессентуки, ул. Орджоникидзе, 79А, цокольный этаж</dd>
-          <dt>Часы работы</dt><dd>Каждый день с 10:00 до 19:00</dd>
-          <dt>Телефон</dt><dd><a href="tel:+79283669548">+7 (928) 366-95-48</a></dd>
-        </dl>
-        <div class="final-btns">
-          <a class="btn btn-dark" href="tel:+79283669548"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25c1.1.37 2.3.57 3.6.57a1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1z"/></svg>Позвонить</a>
-          <a class="btn btn-line" href="https://wa.me/79283669548?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5%21%20%D0%A5%D0%BE%D1%87%D1%83%20%D0%BF%D0%BE%D0%B4%D0%BE%D0%B1%D1%80%D0%B0%D1%82%D1%8C%20%D0%BC%D0%B5%D0%B1%D0%B5%D0%BB%D1%8C%20%D0%B4%D0%BB%D1%8F%20%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80%D1%8B" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.15l-.3-.18-3 .78.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.25-.12-1.47-.72-1.7-.8-.23-.09-.4-.13-.56.12-.17.25-.64.8-.79.97-.14.16-.29.18-.54.06a6.7 6.7 0 0 1-3.3-2.9c-.25-.43.25-.4.71-1.33.08-.16.04-.3-.02-.42l-.76-1.83c-.2-.48-.4-.41-.56-.42h-.47a.9.9 0 0 0-.66.31 2.8 2.8 0 0 0-.86 2.07c0 1.22.89 2.4 1.01 2.57.12.16 1.75 2.67 4.24 3.74 1.57.68 2.19.74 2.98.62.48-.07 1.47-.6 1.68-1.18.2-.58.2-1.08.14-1.18-.06-.1-.23-.17-.48-.29z"/></svg>WhatsApp</a>
-          <a class="btn btn-line" href="https://t.me/Mebelyan" target="_blank" rel="noopener">Telegram</a>
+  <section class="band" id="zayavka" aria-label="Заявка и частые вопросы" style="padding-top:0">
+    <div class="wrap ask">
+      <!-- TODO: отправка заявки не подключена (заглушка). После оплаты: MAX/Telegram менеджеру по STACK-RU.md -->
+      <form id="lead" novalidate>
+        <div class="form-fields">
+          <h2>Не знаете, какой пакет подойдёт?</h2>
+          <p>Оставьте телефон, перезвоним и подскажем.</p>
+          <div class="field"><label for="f-name">Имя</label><input id="f-name" name="name" type="text" autocomplete="name" required></div>
+          <div class="field"><label for="f-phone">Телефон</label><input id="f-phone" name="phone" type="tel" autocomplete="tel" inputmode="tel" placeholder="+7" required></div>
+          <label class="check"><input type="checkbox" required> <span>Согласен на обработку персональных данных по <a href="privacy.html">политике конфиденциальности</a></span></label>
+          <button class="btn btn-dark" type="submit">Жду звонка</button>
         </div>
-        <!-- TODO: отправка заявки не подключена (заглушка). После оплаты: MAX/Telegram менеджеру по STACK-RU.md -->
-        <form id="lead" novalidate>
-          <div class="form-fields">
-            <h3>Не знаете, какой вариант подойдёт?</h3>
-            <p>Оставьте телефон, перезвоним и подскажем.</p>
-            <div class="form-row">
-              <div><label for="f-name">Имя</label><input id="f-name" name="name" type="text" autocomplete="name" required></div>
-              <div><label for="f-phone">Телефон</label><input id="f-phone" name="phone" type="tel" autocomplete="tel" inputmode="tel" placeholder="+7" required></div>
-            </div>
-            <label class="check"><input type="checkbox" required> <span>Согласен на обработку персональных данных по <a href="privacy.html">политике конфиденциальности</a></span></label>
-            <button class="btn btn-dark" type="submit">Жду звонка</button>
-          </div>
-          <p class="form-ok" role="status">Спасибо! Перезвоним в рабочее время, с 10 до 19.</p>
-        </form>
-      </div>
-      <div class="final-media">
-        <img src="img/shop-960.webp" srcset="img/shop-480.webp 480w, img/shop-960.webp 960w" sizes="(min-width: 900px) 50vw, 100vw" width="960" height="720" loading="lazy" alt="Вход в магазин Мебельян с улицы Орджоникидзе">
-        <iframe class="map" title="Мебельян на Яндекс Картах" src="https://yandex.ru/map-widget/v1/?ll=42.881265%2C44.049368&amp;z=16&amp;oid=235050883905&amp;ol=biz" loading="lazy" allowfullscreen></iframe>
+        <p class="form-ok" role="status">Спасибо! Перезвоним в рабочее время, с 10 до 19.</p>
+      </form>
+      <!-- TODO: ответы про сроки и замер уточнить у клиента -->
+      <div class="faq">
+        <h2>Частые вопросы</h2>
+        <details><summary>Где шоурум?</summary><p>Ессентуки, ул. Орджоникидзе, 79А, цокольный этаж. Открыт каждый день с 10:00 до 19:00.</p></details>
+        <details><summary>Можно поменять состав пакета?</summary><p>Да. Уберём лишнее, добавим нужное, подберём ткань и цвет. Цену пересчитаем.</p></details>
+        <details><summary>Есть рассрочка?</summary><p>Да. Оплатить можно наличными, картой, переводом или по СБП.</p></details>
+        <details><summary>Делаете мебель по нашим размерам?</summary><p>Да: шкафы, кухни и диваны делаем под размеры вашей квартиры. Перед этим приезжаем на замер.</p></details>
+        <details><summary>Сколько ждать?</summary><p>То, что есть в наличии, привезём быстро. Мебель под заказ обычно 2–4 недели, точный срок назовём при заказе.</p></details>
+        <details><summary>Вы привозите и собираете?</summary><p>Да. Доставим, поднимем на этаж и соберём.</p></details>
       </div>
     </div>
   </section>
@@ -580,8 +702,13 @@ footer b{display:block;font-variant-numeric:lining-nums;font-family:var(--serif)
 
 <footer>
   <div class="wrap">
-    <div><b>Мебельян</b>Ессентуки, ул. Орджоникидзе, 79А<br><a href="tel:+79283669548">+7 (928) 366-95-48</a></div>
-    <div>Каждый день 10:00–19:00<br><a href="privacy.html">Политика конфиденциальности</a></div>
+    <div class="foot">
+      <div><div class="logo-f">мебельян</div>Магазин мебели и шоурум в Ессентуках.<br>ул. Орджоникидзе, 79А</div>
+      <div><b>Пакеты</b><ul><li><a href="paket-ekonom.html">Эконом</a></li><li><a href="paket-komfort.html">Комфорт</a></li><li><a href="paket-lyuks.html">Люкс</a></li></ul></div>
+      <div><b>Связь</b><ul><li><a href="tel:+79283669548">+7 (928) 366-95-48</a></li><li><a href="https://wa.me/79283669548?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5%21%20%D0%A5%D0%BE%D1%87%D1%83%20%D0%BF%D0%BE%D0%B4%D0%BE%D0%B1%D1%80%D0%B0%D1%82%D1%8C%20%D0%BC%D0%B5%D0%B1%D0%B5%D0%BB%D1%8C%20%D0%B4%D0%BB%D1%8F%20%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80%D1%8B" target="_blank" rel="noopener">WhatsApp</a></li><li><a href="https://t.me/Mebelyan" target="_blank" rel="noopener">Telegram</a></li></ul></div>
+      <div><b>Шоурум</b><ul><li>Каждый день 10:00–19:00</li><li><a href="https://yandex.ru/maps/org/mebelyan/235050883905/" target="_blank" rel="noopener">На Яндекс Картах</a></li><li><a href="privacy.html">Политика конфиденциальности</a></li></ul></div>
+    </div>
+    <div class="foot-bottom">© 2026 Мебельян</div>
   </div>
 </footer>
 
