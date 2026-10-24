@@ -23,7 +23,7 @@
 <link rel="preload" href="fonts/onest-cyr.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="fonts/lora-cyr.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" as="image" href="img/hero-m-800.webp" imagesrcset="img/hero-m-480.webp 480w, img/hero-m-800.webp 800w" media="(max-width: 700px)" fetchpriority="high">
-<link rel="preload" as="image" href="img/hero-w-1920.webp" imagesrcset="img/hero-w-1280.webp 1280w, img/hero-w-1920.webp 1920w" imagesizes="100vw" media="(min-width: 701px)" fetchpriority="high">
+<link rel="preload" as="image" href="img/hero-w-1920.webp" imagesrcset="img/hero-w-1280.webp 1280w, img/hero-w-1920.webp 1920w" imagesizes="(min-width: 1240px) 1192px, 100vw" media="(min-width: 701px)" fetchpriority="high">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -109,8 +109,8 @@ p{margin:0 0 1em}
 .hero-row{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:20px 48px;margin-bottom:44px}
 .hero-row .lead{margin:0}
 .btns{display:flex;flex-wrap:wrap;gap:12px}
-.hero-photo{margin:0}
-.hero-photo img{width:100%;height:auto;max-height:720px;object-fit:cover;object-position:50% 60%}
+.hero-photo{max-width:var(--wrap);margin:0 auto;padding:0 var(--gut)}
+.hero-photo img{width:100%;height:auto;aspect-ratio:16/8;object-fit:cover;object-position:50% 55%;border-radius:var(--r)}
 .hero-cap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:8px 24px;padding-top:14px;font-size:16px}
 .hero-cap a{text-underline-offset:3px}
 .hero-cap b{font-size:18px}
@@ -264,7 +264,7 @@ footer b{display:block;font-family:var(--serif);font-weight:600;font-size:24px;m
   .hero{padding-top:24px}
   .hero h1{margin-bottom:20px}
   .hero-row{margin-bottom:28px}
-  .hero-cap{padding:12px var(--gut) 0}
+  .hero-photo img{aspect-ratio:4/3}
   .dark{padding:40px 18px;margin:0 -8px}
   .tabs{display:grid;grid-template-columns:repeat(3,1fr);gap:6px}
   .tab{padding:8px 10px;font-size:18px}
@@ -320,10 +320,10 @@ footer b{display:block;font-family:var(--serif);font-weight:600;font-size:24px;m
     </div>
     <figure class="hero-photo">
       <picture>
-        <source media="(max-width: 700px)" srcset="img/hero-m-480.webp 480w, img/hero-m-800.webp 800w" sizes="100vw" width="800" height="600">
-        <img src="img/hero-w-1920.webp" srcset="img/hero-w-1280.webp 1280w, img/hero-w-1920.webp 1920w" sizes="100vw" width="1920" height="1072" alt="Шоурум Мебельян: диваны, кресла, стеллажи с пуфами и вывеска Мебельян на стене" fetchpriority="high">
+        <source media="(max-width: 700px)" srcset="img/hero-m-480.webp 480w, img/hero-m-800.webp 800w" sizes="calc(100vw - 32px)" width="800" height="600">
+        <img src="img/hero-w-1920.webp" srcset="img/hero-w-1280.webp 1280w, img/hero-w-1920.webp 1920w" sizes="(min-width: 1240px) 1192px, 100vw" width="1920" height="1072" alt="Шоурум Мебельян: диваны, кресла, стеллажи с пуфами и вывеска Мебельян на стене" fetchpriority="high">
       </picture>
-      <figcaption class="wrap hero-cap">
+      <figcaption class="hero-cap">
         <span>Наш шоурум на Орджоникидзе, 79А, цокольный этаж</span>
         <a href="https://yandex.ru/maps/org/mebelyan/235050883905/reviews/" target="_blank" rel="noopener"><b>4,5</b> из 5 на Яндекс Картах, 45 оценок</a>
       </figcaption>
